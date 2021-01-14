@@ -1,0 +1,1 @@
+# elasticsuite-ghostcleaner
