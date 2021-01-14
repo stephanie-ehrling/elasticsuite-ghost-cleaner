@@ -1,0 +1,39 @@
+{
+    "name": "sehrling/elasticsuite-ghost-cleaner",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephanie Ehrling",
+            "email": "sehrling@artplants.eu"
+        }
+    ],
+    "description": "Magento 2 module to delete ghost indices automatically for the Smile Elasticsuite module ",
+    "keywords": [
+        "magento",
+        "magento2",
+        "elasticsearch",
+        "search",
+        "merchandising",
+        "core",
+        "setup",
+        "graphql"
+    ],
+    "require": {
+        "smile/elasticsuite": ">=2.10.0"
+    },
+    "replace": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sehrling\\ElasticsuiteGhostCleaner\\": ""
+        }
+    },
+   "minimum-stability": "dev",
+   "prefer-stable": true
+}
