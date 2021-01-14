@@ -1,20 +1,13 @@
 Elasticsuite ghost cleaner
 ===========
 
-A magento 2 module that  sales rules to add free products to cart. This is the Magento 2 version of the same extension that can be found [here](https://github.com/code4business/freeproduct).
-The development and the function of the original Magento1 extension is described in the following two websites:
-- <http://www.code4business.de/make-a-gift-magento-warenkorbpreisregeln-um-geschenke-erweitern/>
-- <http://www.webguys.de/magento/turchen-21-kostenlose-produkte-uber-warenkorb-preisregeln/>
+A magento 2 module that uses a cron job to delete indices marked as "ghost".
 
 Requirements
 -------
 - PHP >= 7.1
 - Magento >= 2.2
 - [Smile Elasticsuite module](https://github.com/Smile-SA/elasticsuite) >= 2.10
-
-Supported Product Types
--------
-The extension only supports simple and virtual product types, other types or custom options are not supported. The reason is that other product types need additional information that can only be added with IDs. This leads to a way more complicated module; we want to keep this module clean and easy.
 
 Installation
 -------
