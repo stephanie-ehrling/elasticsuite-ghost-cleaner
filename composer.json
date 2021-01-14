@@ -4,8 +4,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Stephanie Ehrling",
-            "email": "sehrling@artplants.eu"
+            "name": "Stephanie Ehrling"
         }
     ],
     "description": "Magento 2 module to delete ghost indices automatically for the Smile Elasticsuite module ",
